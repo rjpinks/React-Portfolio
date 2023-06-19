@@ -8,13 +8,15 @@ h1 {
   text-align: center;
 }
 
-nav {
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-
+h3 {
+  text-align: center;
+}
 
 /* Styling that came with React Library */
 

@@ -2,12 +2,12 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav>
-            <p>About Me</p>
-            <p>Portfolio</p>
-            <p>Contact Info</p>
-            <p>Resume</p>
-        </nav>
+        <header>
+            <nav>About Me</nav>
+            <nav>Portfolio</nav>
+            <nav>Contact Info</nav>
+            <nav>Resumé</nav>
+        </header>
     )
 }
 
