@@ -2,7 +2,7 @@ import React from 'react';
 
 const Portfolio = () => {
     return (
-        <section>
+        <section id="portfolio">
             <h3>Portfolio</h3>
             <main>
                 <p>These are some of the apps that I have created!</p>
