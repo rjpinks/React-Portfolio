@@ -11,7 +11,7 @@ const Portfolio = () => {
                 <p>image 2 will go here</p>
                 <p>description of image 2</p>
                 <p>image 3 will go here</p>
-                <p>description of image3</p>
+                <p>description of image 3</p>
             </main>
         </section>
     )

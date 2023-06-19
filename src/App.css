@@ -18,6 +18,11 @@ h3 {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* Styling that came with React Library */
 
