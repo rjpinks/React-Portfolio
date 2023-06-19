@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -9,8 +11,8 @@ function App() {
       <Navbar />
       <section>
         <About />
-        {/* <Portfolio /> */}
-        {/* <Contact /> */}
+        <Portfolio />
+        <Contact />
         {/* <Resume /> */}
       </section>
     </div>
