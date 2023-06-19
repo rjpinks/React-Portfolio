@@ -1,6 +1,22 @@
-.App {
+/* Styling that I added */
+
+/* .App {
+
+} */
+
+h1 {
   text-align: center;
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+/* Styling that came with React Library */
 
 .App-logo {
   height: 40vmin;
