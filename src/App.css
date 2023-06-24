@@ -1,8 +1,8 @@
 /* Styling that I added */
 
-/* .App {
-
-} */
+.App {
+  margin: 2%;
+}
 
 h1 {
   text-align: center;
@@ -35,6 +35,7 @@ svg {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 /* 
 THIS MESSED UP THE FORMATTING IN A COLUMN
