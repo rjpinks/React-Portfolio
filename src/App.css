@@ -4,6 +4,10 @@
   margin: 2%;
 }
 
+img {
+  border-radius: 25px;
+}
+
 h1 {
   text-align: center;
 }

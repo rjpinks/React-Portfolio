@@ -28,7 +28,7 @@ const Contact = () => {
                 <input
                     type="text"
                     placeholder=""
-                    class="form-control"
+                    className="form-control"
                     style={{width: "750px", height: "300px"}}
                 // value=""
                 />
