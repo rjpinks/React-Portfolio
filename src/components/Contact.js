@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Contact = () => {
+
     return (
         <>
             <section id="contact">
@@ -14,6 +15,8 @@ const Contact = () => {
                     placeholder=""
                     className="form-control"
                     style={{width: "750px"}}
+                    name="name"
+                    //required
                 // value=""
                 />
                 <h4>Email:</h4>
@@ -22,14 +25,18 @@ const Contact = () => {
                     placeholder=""
                     className="form-control"
                     style={{width: "750px"}}
+                    name="email"
+                    //required
                 // value=""
                 />
                 <h4>Your Message:</h4>
-                <input
+                <textarea
                     type="text"
                     placeholder=""
                     className="form-control"
-                    style={{width: "750px", height: "300px"}}
+                    style={{width: "750px", height: "300px", overflowWrap: "break-word"}}
+                    name="message"
+                    //required
                 // value=""
                 />
                 <br></br>
