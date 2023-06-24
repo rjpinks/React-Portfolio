@@ -33,7 +33,6 @@ const Contact = () => {
                 // value=""
                 />
                 <br></br>
-                <br></br>
                 <input
                     type="submit"
                     value="Send"

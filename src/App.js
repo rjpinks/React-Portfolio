@@ -1,25 +1,13 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
 import Foot from './components/Foot';
+import MainComponent from './components/MainComponent'
 
 function App() {
   return (
     <div className="App">
       <h1>Welcome!</h1>
-      <Navbar />
-      <section>
-        <About />
-        <br></br>
-        <Portfolio />
-        <br></br>
-        <Contact />
-        <br></br>
-        <Resume />
-      </section>
+      {/* <Navbar /> */}
+      <MainComponent />
       <br></br>
       <Foot />
     </div>
